@@ -28,10 +28,10 @@ SUBDIRS = . src
 # cd to the directory again and "make clean" it will fail.  So, check that the
 # Makefile exists before recursing.
 clean-local:
-	@if test -e gmock/Makefile; then \
-	  echo "Making clean in gmock"; \
-	  cd gmock && $(MAKE) $(AM_MAKEFLAGS) clean; \
-	fi; \
+#	@if test -e gmock/Makefile; then \
+#	  echo "Making clean in gmock"; \
+#	  cd gmock && $(MAKE) $(AM_MAKEFLAGS) clean; \
+#	fi; \
 	if test -e conformance/Makefile; then \
 	  echo "Making clean in conformance"; \
 	  cd conformance && $(MAKE) $(AM_MAKEFLAGS) clean; \
