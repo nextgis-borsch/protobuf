@@ -84,3 +84,8 @@ The complete documentation for Protocol Buffers is available via the
 web at:
 
 https://developers.google.com/protocol-buffers/
+
+Version
+-------
+
+3.5.1-3
